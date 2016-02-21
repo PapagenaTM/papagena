@@ -20,6 +20,10 @@ html, body {
   height: auto;
 }
 
+.image img {
+  width: 100%
+}
+
 @media screen and (max-width: 600px) {
   .image {
     width: 70%;
