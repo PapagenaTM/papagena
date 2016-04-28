@@ -35,6 +35,8 @@ html, body {
   font-size: 25px;
   letter-spacing: 7px;
   text-transform: uppercase;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  -webkit-animation-delay: 3s;
 }
 
 .light {
@@ -43,4 +45,44 @@ html, body {
 
 .bold {
   font-weight: 600;
+}
+
+.all {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+}
+
+.all img {
+  width: 100%
+}
+
+.all:target {
+  display: flex;
+}
+
+a, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(1px, 0, 0);
+  }
 }
