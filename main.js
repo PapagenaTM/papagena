@@ -9,9 +9,9 @@ function changeBackground() {
   var green = getRandomNumber();
   var blue = getRandomNumber();
 
-  background.style.background = "rgb("+red+","+green+","+blue+")";
+  background.style.background = "rgb(" + red + "," + green + "," + blue + ")";
 }
 
 function getRandomNumber() {
-  return Math.floor(Math.random()*255);
+  return Math.floor(Math.random() * 255);
 }
