@@ -1,16 +1,17 @@
 var background = document.querySelector(".container");
 
 background.addEventListener("click", function() {
-changeBackground();
+  changeBackground();
 });
 
 function changeBackground() {
-var red = getRandomNumber();
-var green = getRandomNumber();
-var blue = getRandomNumber();
-background.style.background = "rgb("+red+","+green+","+blue+")";
+  var red = getRandomNumber();
+  var green = getRandomNumber();
+  var blue = getRandomNumber();
+
+  background.style.background = "rgb("+red+","+green+","+blue+")";
 }
 
 function getRandomNumber() {
-return Math.floor(Math.random()*255);
+  return Math.floor(Math.random()*255);
 }
