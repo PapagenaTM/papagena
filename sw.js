@@ -1,9 +1,9 @@
 var CACHE_NAME = 'v2';
 var urlsToCache = [
   '/',
-  '/index.html',
-  '/main.css',
-  '/main.js'
+  'index.html',
+  'main.css',
+  'main.js'
 ];
 
 self.addEventListener('install', event => {
