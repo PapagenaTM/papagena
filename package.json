@@ -1,0 +1,12 @@
+{
+  "name": "papagena",
+  "version": "0.0.0",
+  "private": true,
+  "description": "papagena",
+  "scripts": {
+    "server": "browser-sync start --files './' --server './' --no-notify"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5"
+  }
+}
