@@ -72,6 +72,10 @@ a:visited {
   text-decoration: none;
 }
 
+iframe {
+  width: 100%;
+}
+
 @keyframes shake {
   10%,
   90% {
