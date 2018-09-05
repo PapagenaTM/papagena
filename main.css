@@ -58,6 +58,10 @@ body {
   flex-direction: column;
 }
 
+h1 a {
+  text-decoration: underline;
+}
+
 .all img {
   width: 100%;
 }
