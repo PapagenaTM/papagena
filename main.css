@@ -1,8 +1,18 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
+  color: white;
 }
 
 .container {
@@ -14,6 +24,11 @@ body {
   align-items: center;
   justify-content: center;
   transition: background 0.5s ease-in-out;
+  background: url("images/sky2.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 8px;
 }
 
 .image {
@@ -72,7 +87,7 @@ h1 a {
 
 a,
 a:visited {
-  color: #000;
+  color: white;
   text-decoration: none;
 }
 
@@ -81,6 +96,7 @@ iframe {
 }
 
 @keyframes shake {
+
   10%,
   90% {
     transform: translate3d(-1px, 0, 0);
