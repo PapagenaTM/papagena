@@ -1,8 +1,8 @@
 var background = document.querySelector('.container');
 
-// background.addEventListener("click", function() {
-//   changeBackground();
-// });
+background.addEventListener("click", function() {
+  changeBackground();
+});
 
 function changeBackground() {
   var red = getRandomNumber();
