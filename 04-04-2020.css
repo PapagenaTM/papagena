@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -13,6 +17,7 @@ body {
   grid-template-columns: 60px 1fr 1fr;
   grid-template-rows: repeat(6, 1fr);
   background: blanchedalmond;
+  padding: 8px;
 }
 
 .title {
@@ -43,10 +48,14 @@ body {
   font-weight: bold;
 }
 
-.image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-heart {
+  background-size: contain;
 }
 
 .eight {
