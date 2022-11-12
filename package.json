@@ -7,6 +7,6 @@
     "server": "browser-sync start --files './' --server './' --no-notify"
   },
   "devDependencies": {
-    "browser-sync": "^2.17.5"
+    "browser-sync": "^2.27.10"
   }
 }
